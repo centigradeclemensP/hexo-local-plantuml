@@ -1,5 +1,7 @@
 # hexo-local-plantuml
 
+[![npm version](https://badge.fury.io/js/hexo-local-plantuml.svg)](https://badge.fury.io/js/hexo-local-plantuml)
+
 This plugin generates the PlantUML images locally rather than using the service at http://www.plantuml.com/plantuml/. 
 
 This is necessary if you are using Hexo for private work and don't want your diagrams bounced off an external server.
