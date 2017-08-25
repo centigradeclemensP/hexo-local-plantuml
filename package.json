@@ -1,0 +1,32 @@
+{
+  "name": "hexo-local-plantuml",
+  "version": "0.0.1",
+  "description": "This plugin generates the PlantUML images locally rather than using the service at http://www.plantuml.com/plantuml/.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t-kiyono@be-geek.net",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "node-plantuml": "^0.5.0",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-kiyono/hexo-local-plantuml.git"
+  },
+  "keywords": [
+    "hexo",
+    "plantuml"
+  ],
+  "bugs": {
+    "url": "https://github.com/t-kiyono/hexo-local-plantuml/issues"
+  },
+  "homepage": "https://github.com/t-kiyono/hexo-local-plantuml#readme"
+}
