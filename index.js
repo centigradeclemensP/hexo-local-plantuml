@@ -22,7 +22,7 @@ hexo.extend.tag.register('plantuml', (args, content) => {
 
   return plantuml.generate(content, config)
     .then(function(result) {
-      var imagePath = hexo.config.root + result;
+      var imagePath = config.uml_root + result;
 
       if (config.svg_object && config.format === 'svg') {
         return `<object type="image/svg+xml" data="${imagePath}" >`;
