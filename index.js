@@ -17,6 +17,7 @@ function ignore(data) {
 hexo.extend.tag.register('plantuml', (args, content) => {
   let config = hexo.config.plantuml || {};
   config.format = (config.format || FORMAT).toLowerCase();
+  config.charset = 'utf8'
   config.asset_path = config.asset_path || ASSET_PATH;
   Object.assign(config, {public_dir: hexo.config.public_dir});
 
